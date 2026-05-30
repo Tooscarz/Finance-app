@@ -47,7 +47,7 @@ export default function AddFunds (){
       
         setLoading(false);
         setOpen(true);
-        resetForm();
+       
         }
         catch(errors){
             console.error("unable to add fund", errors)

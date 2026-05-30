@@ -15,7 +15,7 @@ export default async function Profile () {
             <div className="w-full md:w-90 md:md:max-h-140 rounded shadow-md py-5 px-4">
                 <h1 className="text-center font-semibold text-xl text-gray-700">User Details</h1>
                 <div className="mt-3 flex justify-center">
-                    <Image
+                <Image 
                     src={session?.user?.image} 
                     alt="profile image" 
                     width={80}
